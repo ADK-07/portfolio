@@ -103,7 +103,7 @@
     <section class="contact" id="contact">
         <h2  class="heading">CONTACT <span>ME</span></h2>
         <div class="contact-content">
-            <form action="">
+            <form action="" onsubmit="event.preventDefault(); alert('your message have been Send')">
                 <div class="input-group">
                     <div class="input-box">
                         <input type="text" placeholder="Name">
@@ -116,7 +116,7 @@
                 </div>
                 <div class="input-group-2">
                     <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-                    <input type="submit" value="Send Message" class="btn">
+                    <input type="submit" value="Send Message" class="btn" >
                 </div>
             </form>
         </div>
